@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript Test</title>
+    </head>
+    <body> 
+        <form>
+            <label>Input number:</label>
+            <input type="number" id="uInput"><br><br>
+            <input type="button" value="Click for Alert" onclick="modelo(uInput)">
+        </form>
+        <script>
+            function modelo(num) {
+                if ( num % 11 != 0) {
+                    return window.alert("Not divisible by 11");
+                } else  if (num % 11 == 0){
+                    return window.alert("Divisible by 11");
+                }
+            }
+        </script>
+    </body>
+</html>

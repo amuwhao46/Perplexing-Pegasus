@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript 2</title>
+    </head>
+    <body>
+        <script>
+            function counter(str) {
+                let count = 0;
+                for (let i = 0; i < str.length; i++) {
+                if (str.charAt(i) != 'a' ||'e' ||'i' ||'o' ||'u') {
+                    count++;
+                    }
+                }
+                return count;
+            }
+            console.log(counter('whatismypurpose'));
+        </script>
+    </body>
+</html>

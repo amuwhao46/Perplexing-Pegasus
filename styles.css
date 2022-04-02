@@ -1,0 +1,99 @@
+html {
+    box-sizing: border-box;
+}
+*{
+    box-sizing: inherit;
+}
+
+.navBar ul li {
+    list-style-type: none;
+    display: flex;
+    display: block;
+    justify-content: center;
+    border: 1px solid; 
+    border-radius: .5em; 
+    background-color: #c2a37ac5;
+    padding: .5em; 
+    margin: .5em;
+}
+
+
+main {
+    padding: 3em;
+}
+body {
+background-color: #c2a37a; 
+background-image: url(gallery/photos/bullseye.png);
+background-size: 33.33333%;
+margin: 0 10%; 
+font-size: 75%;
+font-family: 'Roboto', sans-serif;
+}
+h1 {
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+font-weight: normal; 
+text-transform: uppercase; 
+margin-top: 30px;
+color: rgb(230, 230, 230);
+}
+h2 {
+color: #3c78d1;
+/*font-size: 1em;*/
+font-size: 120%;
+text-align: center;
+}
+footer {
+    padding-left: 8em;
+    padding-right: 8em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    text-align: center;
+    background-color: rgba(255, 255, 240, 0.7);
+    border: double 4px rgb(10, 29, 51);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+/*links*/
+a:link {color: blue;}
+a:hover {color: lightblue}
+a:visited {color: rgb(119, 1, 155)}
+/*element style*/
+strong {
+    color:rgb(9, 63, 179);
+    font-size:large;
+}
+fieldset {
+    background-color: rgba(173, 216, 230, 0.7);
+    text-align: center;
+    background-image: url(gallery/photos/Circle.png);
+    background-position: center;
+    background-size: 20%;
+    background-repeat: repeat-x;
+    margin-bottom: 5em;
+}
+/*Image style*/
+img {
+    max-width: 100%
+}
+/*Table style*/
+.table {
+    font-weight: 700;
+    font-style: 'Noto Sans Mono', monospace;
+}
+td, th { 
+    border: 1px solid #CCC; }
+table { 
+    border: 1px solid black; } 
+td { 
+    text-align: center; }
+
+/*fun with selectors*/
+#list {color: rgb(104, 103, 103);}
+
+@media screen and (min-width: 400px) {
+video {
+    width: 426;
+    height: 240;
+    }
+}

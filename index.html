@@ -3,147 +3,146 @@
    <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="Stylesheet" href="styles.css">
       <title>Perplexing Pegasus - Home</title>
-      <style>
-         body {
-         background-color: #ccc5b9; 
-         margin: 0 10%; 
-         font-family: 'Times New Roman', Times, serif;
-         }
-         h1 {
-         text-align: center;
-         font-family: 'Times New Roman', Times, serif;
-         font-weight: normal; 
-         text-transform: uppercase; 
-         border-bottom: 1px solid #57b1dc; 
-         margin-top: 30px;
-         }
-         h2 {
-         color: #d1633c;
-         font-size: 1em;
-         }
-         img {
-            max-width: 100%
-         }
-         /*Table style*/
-         td, th { border: 1px solid #CCC; }
-         table { border: 1px solid black; } 
-         td { text-align: center; }
-      </style>
    </head>
    <!--Everything stated in the body paragraph is written with the intent of humor and does not represent me as a person-->
-   <body>
-      <h1><img src="gallery/photos/Pegasus.jpeg" alt="Header Image"width="40%"><br>Perplexing Pegasus</h1>
-      <!--File path to image-->
-      <h2>Why Perplexing Pegasus?</h2>
-      <p> What is a perplexing pegasus? I couldn't tell you, from what I can recall it is a song by this one group of <q>musicians</q> named Rae Sremmurd. 
-         I don't even think this group produces their own music, but thats the title of one of their songs. 
-         In all honesty it's not that good but I can still <b>vibe</b> with it. So why perplexing pegasus? because it rhymes. 
-         I dont even think pegasus exists but what do I know, I've never seen one so I can only prove by contradiction that it does no exist.
-      </p>
-      <h2>Rae Sremmurd?</h2>
-      <p>
-         <picture>
-            <source media="(min-width: 480px)" srcset="thumbnail/Artists.jpg 100%w"> <!--Responsive image-->
-            <a href="artists.html"><img src="gallery/thumbnail/Artists.jpg" alt="Rae Sremmurds" width="18%"></a> 
-         </picture> 
-         <br>
-         Who are these people and how do you even begin to say that name? It's quite easy actually. 
-         Here's the kicker, Rae Sremmurd is actually <em>Ear Drummers</em> backwords. Crazy right? Totally blew my mind when I found out 
-         I think 4 years ago. So who are they? I couldn't really tell you since I dont care much about musicians personal lives. 
-         I just listen to their music and nothing more. One time they did say "money makes the world go round, money makes the world go down"
-         14 year old me thought that was so deep though.
-      </p>
-      <!--List-->
-      <h2>Top Songs</h2>
-      <p>
-         <picture>
-            <source media="(min-width: 480px)" srcset="thumbnail/Billboard.png 100%w"> <!--Responsive image-->
-            <a href="billboard.html"><img src="gallery/thumbnail/Billboard.png" alt="Billboard Top 100" width="18%"></a>
-         </picture>
-         <br>
-         The top songs by Rae Sremmurd accouring to Spotify are:
-      </p>
-      <ul>
-         <li>Come Get Her</li>
-         <li>Black Beatles</li>
-         <li>This Could Be Us</li>
-         <li>No Type</li>
-         <li>Swang</li>
-      </ul>
-      <h2>What is life?</h2>
-      <p> 
-         <picture>
-            <source media="(min-width: 480px)" srcset="thumbnail/Brahman.jpeg 100%w"> <!--Responsive image-->
-            <a href="brahman.html"><img src="gallery/thumbnail/Brahman.jpeg" alt="Indian god Brahman" width="18%"></a>
-         </picture>
-         <br>
-         What does this have to do with Perplexing Pegasus and the artist for the song? I'll contextualize for you, because I am alive
-         I am able to experience this waste of my time called a song. It is the fact that I am able to experience something outside of myself
-         that I can interpret as music that I can even give my own opinion about said song. Is there a reason for it? I don't think so but what do I know?
-         I'm just adding filler to show a theme for this website I am buidling and designing. Think of it as those newspapers actors read in movies.
-         If you actually freeze the frame and try to read the article, you will quickly find it's a bunch of meaningless gibberish. Just like life.
-         So enjoy it and stop worrying so much about the contents of it. In one of their hit songs Rae Sremmurd said, <q>Money makes the world go 'round,
-         money makes the world go down.</q> So even they understand the malevilence of money and how it distroyes everything.
-      </p>
-      <!--Table-->
-      <caption>Data on Rae Sremmurd and the meaning of Life</caption>
-		<table>
-			<tr>
-				<th rowspan="2"></th>
-				<th colspan="2">A whole lotta Gibberish</th>
-				<th rowspan="2">Header 3</th>
-			</tr>
-			<tr>
-            <th>Header 1</th>
-            <th>Header 2</th>
-			</tr>
-			<tr>
-				<th scope="row">Row 1</th>
-               <td>1.1</td>
-               <td>1.2</td>
-               <td>1.3</td>
-			</tr>
-			<tr>
-				<th scope="row">Row 2</th>
-               <td>2.1</td>
-               <td>2.2</td>
-               <td>2.3</td>
-			</tr>
-			<tr>
-				<th scope="row">Row 3</th>
-               <td>3.1</td>
-               <td>3.2</td>
-               <td>3.3</td>
-			</tr>
-		</table>
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Relevant information for further reading</a>
-      <!--[Type] form-->
-      <form>
-         <fieldset>
-            <legend>Feedback</legend>
-            <p>Thank you for visiting my website, type your email to recieve monthly notifications of my updates:</p>
-            <label for="eMail">E-mail Address:</label>
-            <input type="text" name="eMail">
-            <p>Additional agreement to recieve emails:</p>
-            <!--Radio-->
-            <input type="radio" name="eMailAgr">I would like to recieve monthly emails
+   <div class="navBar">
+      <nav>
+         <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+         </ul>       
+      </nav>
+   </div>
+   <main>
+      <body>
+         <div id="perp">
+            <!--File path to image-->
+            <h1><img src="gallery/photos/Pegasus.jpeg" alt="Header Image"width="40%"><br>Perplexing Pegasus</h1>
+            <h2>Why Perplexing Pegasus?</h2>
+            <p> What is a perplexing pegasus? I couldn't tell you, from what I can recall it is a song by this one group of <q>musicians</q> named Rae Sremmurd. 
+               I don't even think this group produces their own music, but thats the title of one of their songs. 
+               In all honesty it's not that good but I can still <strong>vibe</strong> with it. So why perplexing pegasus? because it rhymes. 
+               I dont even think pegasus exists but what do I know, I've never seen one so I can only prove by contradiction that it does no exist.
+            </p>
+         </div>
+         <div id="sremmurd">
+            <h2>Rae Sremmurd?</h2>
+            <p>
+               <picture>
+                  <source media="(min-width: 480px)" srcset="thumbnail/Artists.jpg 100%w"> <!--Responsive image-->
+                  <a href="artists.html"><img src="gallery/thumbnail/Artists.jpg" alt="Rae Sremmurds" width="18%"></a> 
+               </picture> 
+               <br>
+               Who are these people and how do you even begin to say that name? It's quite easy actually. 
+               Here's the kicker, Rae Sremmurd is actually <em>Ear Drummers</em> backwords. Crazy right? Totally blew my mind when I found out 
+               I think 4 years ago. So who are they? I couldn't really tell you since I dont care much about musicians personal lives. 
+               I just listen to their music and nothing more. One time they did say "money makes the world go round, money makes the world go down"
+               14 year old me thought that was so deep though.
+            </p>
+         </div>
+         <div id="list">
+            <!--List-->
+            <h2>Top Songs</h2>
+            <p>
+               <picture>
+                  <source media="(min-width: 480px)" srcset="thumbnail/Billboard.png 100%w"> <!--Responsive image-->
+                  <a href="billboard.html"><img src="gallery/thumbnail/Billboard.png" alt="Billboard Top 100" width="18%"></a>
+               </picture>
+               <br>
+               The top songs by Rae Sremmurd accouring to Spotify are:
+            </p>
+            <ul>
+               <li>Come Get Her</li>
+               <li>Black Beatles</li>
+               <li>This Could Be Us</li>
+               <li>No Type</li>
+               <li>Swang</li>
+            </ul>
+         </div>
+         <div id="crisis">
+         <h2>What is life?</h2>
+         <p> 
+            <picture>
+               <source media="(min-width: 480px)" srcset="thumbnail/Brahman.jpeg 100%w"> <!--Responsive image-->
+               <a href="brahman.html"><img src="gallery/thumbnail/Brahman.jpeg" alt="Indian god Brahman" width="18%"></a>
+            </picture>
             <br>
-            <input type="radio" name="eMailAgr">I would not like to recieve monthly emails
-            <!--Menu-->
-            <p>Frequency per month:
-               <select name="frequency" size="1">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
-               <!-- more options here -->
-               </select>
-               </p>
-         </fieldset>
-      </form>
-      <hr>
+            What does this have to do with Perplexing Pegasus and the artist for the song? I'll contextualize for you, because I am alive
+            I am able to experience this waste of my time called a song. It is the fact that I am able to experience something outside of myself
+            that I can interpret as music that I can even give my own opinion about said song. Is there a reason for it? I don't think so but what do I know?
+            I'm just adding filler to show a theme for this website I am buidling and designing. Think of it as those newspapers actors read in movies.
+            If you actually freeze the frame and try to read the article, you will quickly find it's a bunch of meaningless gibberish. Just like life.
+            So enjoy it and stop worrying so much about the contents of it. In one of their hit songs Rae Sremmurd said, <q>Money makes the world go 'round,
+            money makes the world go down.</q> So even they understand the malevilence of money and how it distroyes everything.
+         </p>
+         </div>
+         <!--Table-->
+         <div id="table">
+            <caption>Data on Rae Sremmurd and the meaning of Life</caption>
+            <table>
+               <tr>
+                  <th rowspan="2"></th>
+                  <th colspan="2">An Interesting Title</th>
+                  <th rowspan="2">Header 3</th>
+               </tr>
+               <tr>
+                  <th>Header 1</th>
+                  <th>Header 2</th>
+               </tr>
+               <tr>
+                  <th scope="row">Row 1</th>
+                     <td>1.1</td>
+                     <td>1.2</td>
+                     <td>1.3</td>
+               </tr>
+               <tr>
+                  <th scope="row">Row 2</th>
+                     <td>2.1</td>
+                     <td>2.2</td>
+                     <td>2.3</td>
+               </tr>
+               <tr>
+                  <th scope="row">Row 3</th>
+                     <td>3.1</td>
+                     <td>3.2</td>
+                     <td>3.3</td>
+               </tr>
+            </table>
+         </div>
+         <br>
+         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Relevant information for further reading</a>
+         <br>
+         <!--[Type] form-->
+         <form>
+            <fieldset>
+               <legend>Feedback</legend>
+               <p>Thank you for visiting my website, type your email to recieve monthly notifications of my updates:</p>
+               <label for="eMail">E-mail Address:</label>
+               <input type="text" name="eMail">
+               <p>Additional agreement to recieve emails:</p>
+               <!--Radio-->
+               <input type="radio" name="eMailAgr">I would like to recieve monthly emails
+               <br>
+               <input type="radio" name="eMailAgr">I would not like to recieve monthly emails
+               <!--Menu-->
+               <p>Frequency per month:
+                  <select name="frequency" size="1">
+                     <option>1</option>
+                     <option>2</option>
+                     <option>3</option>
+                     <option>4</option>
+                     <option>5</option>
+                  </select>
+                  </p>
+            </fieldset>
+         </form>
+         <video src="MP4/Music.mp4" width="426" height="240" controls><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">If you see this message, please click it to access the video</a></video>
+         </body>
+      </main>
       <!--Album Copyright-->
       <footer>
          &copy 2014 Eardruma Records/ Interscope Records
